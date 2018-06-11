@@ -8,8 +8,10 @@ class TitleAuthor extends Component {
                 <div className="avatar">
                     <img src="http://www.zbrushcentral.com/attachment.php?attachmentid=376082" alt="author" />
                     <div className="author-info">
-                        <p className="author-name">By Domri, son of Flug</p>
-                        <p className="date">on 28 April, 3018 of the Third Age</p>
+                        <h6>
+                            <p className="author-name">By Domri, son of Flug</p>
+                            <p className="date">on 28 April, 3018 of the Third Age</p>
+                        </h6>
                     </div>
                 </div>
             </div>
