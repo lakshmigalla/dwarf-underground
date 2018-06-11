@@ -28,7 +28,7 @@ class App extends Component {
           
           <SideImage />
 
-          <ImagesAtBottom />
+          <ImagesAtBottom/>
 
         </main>
 
