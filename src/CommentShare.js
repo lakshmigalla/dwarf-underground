@@ -1,6 +1,20 @@
 import React, { Component } from 'react'
 
 class CommentShare extends Component {
+    // constructor () {
+    //     super();
+    //     this.state = {
+    //         commentClicked: false
+    //     }
+    // }
+    // onClick() {
+    //     if (this.state.commentClicked == true) {
+    //         this.setState({commentClicked: false})
+    //     }
+    //     else {
+    //         this.setState({commentClicked: true})
+    //     }
+    // }
     render() {
         return (
             <div className="article-links">

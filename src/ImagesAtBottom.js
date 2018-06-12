@@ -10,14 +10,22 @@ class ImagesAtBottom extends Component {
             <div className="small-12 columns other-articles">
             <h2>From around the Realm</h2>
 
-            <FirstImage />
+            {/* <FirstImage />
 
             <SecondImage />
 
             <ThirdImage />
 
-            <FourthImage />
-            
+            <FourthImage /> */}
+           
+            {/* this.props.imageLinks.map(function(imageLinks) {
+                <div> */}
+                <a href="http://lotr.wikia.com/wiki/Orcs"><FirstImage /></a>
+                <a href="http://lotr.wikia.com/wiki/Dwarves"><SecondImage /></a>
+                <a href="http://artemisfowl.wikia.com/wiki/Mulch_Diggums"><ThirdImage /></a>
+                <a href="http://lotr.wikia.com/wiki/Hobbits"><FourthImage /></a>
+                {/* </div>
+            }) */}
           </div>
         )
     }

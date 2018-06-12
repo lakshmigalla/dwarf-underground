@@ -7,6 +7,7 @@ import TitleAuthor from './TitleAuthor'
 import SideImage from './SideImage';
 import ImagesAtBottom from './ImagesAtBottom';
 import Footer from './Footer';
+import Textbox from './Textbox';
 
 class App extends Component {
   render() {
@@ -23,6 +24,8 @@ class App extends Component {
             <Article />
 
             <CommentShare />
+
+            <Textbox />
 
           </div>
           
