@@ -1,9 +1,25 @@
 import React, { Component } from 'react'
 
 class Textbox extends Component {
-    render () {
+    // constructor () {
+    //     super();
+    //     this.state = {
+    //         inputVal: ''
+    //     }
+    // }
+    // handleChange (e) {
+    //     this.setState({inputVal: e.target.value})
+    // }
+    // handleClick (e) {
+    //     alert({input: e.target.value})
+    // }
+    render() {
         return (
-            <input type = "text" placeholder = "Type a comment"></input>
+            <form>
+                <input type="text" id="commentInput" placeholder="Type a comment"></input>
+                <button style={{ color: 'green' }} id="submitButton"> Submit Comment </button>
+        
+            </form>
         )
     }
 }

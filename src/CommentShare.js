@@ -8,7 +8,8 @@ class CommentShare extends Component {
             commentClicked: false
         }
     }
-    onClick() {
+    onClick(e) {
+        e.preventDefault()
         this.setState({commentClicked: !this.state.commentClicked})
     }
     render() {
