@@ -24,6 +24,8 @@ class App extends Component {
 
             <CommentShare />
 
+            <h6 id = "comm"></h6>
+
           </div>
           
           <SideImage />
